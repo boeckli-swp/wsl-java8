@@ -19,7 +19,7 @@
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/swp-test/wsl-java11</url>
+            <url>https://maven.pkg.github.com/swp-test/wsl-java8</url>
         </repository>
     </distributionManagement>
 
@@ -55,7 +55,7 @@
         <sonar.scm.provider>git</sonar.scm.provider>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>boeckli-swp</sonar.organization>
-        <sonar.projectKey>boeckli-swp_wsl-java11</sonar.projectKey> <!-- default is: <groupId>:<artifactId> -->
+        <sonar.projectKey>boeckli-swp_wsl-java8</sonar.projectKey> <!-- default is: <groupId>:<artifactId> -->
     </properties>
 
     <profiles>
