@@ -211,8 +211,8 @@
             to the docker image id for builds in jenkins (docker.application.image.tag). 
             -->
             <plugin>
-                <groupId>io.github.git-commit-id</groupId>
-                <artifactId>git-commit-id-maven-plugin</artifactId>
+                <groupId>pl.project13.maven</groupId>
+                <artifactId>git-commit-id-plugin</artifactId>
                 <version>${git-commit-id-maven-plugin.version}</version>
                 <executions>
                     <execution>
