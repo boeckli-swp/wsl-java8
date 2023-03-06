@@ -140,7 +140,7 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file  
 
     - name: Run Sonar Code Scan
-      run: mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=swp-test_wsl-java8
+      run: mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=wsl-java8
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
