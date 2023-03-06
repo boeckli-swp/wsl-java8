@@ -54,8 +54,8 @@
         <!-- https://docs.sonarcloud.io/advanced-setup/analysis-parameters/ -->
         <sonar.scm.provider>git</sonar.scm.provider>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>boeckli-swp</sonar.organization>
-        <sonar.projectKey>boeckli-swp_wsl-java8</sonar.projectKey> <!-- default is: <groupId>:<artifactId> -->
+        <sonar.organization>swp-test</sonar.organization>
+        <sonar.projectKey>swp-test_wsl-java8</sonar.projectKey> <!-- default is: <groupId>:<artifactId> -->
     </properties>
 
     <profiles>
